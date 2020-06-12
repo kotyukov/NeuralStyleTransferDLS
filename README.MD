@@ -10,10 +10,10 @@ https://github.com/leongatys/PytorchNeuralStyleTransfer
 ### The loss function
 we minimise is
 
-$$L_{total}(\vec{p},\vec{a},\vec{x})$$ = $$\alpha$$ $$L_{content}(\vec{p},\vec{x})$$ + $$\beta$$ $$L_{style}(\vec{a},\vec{x})$$
+![](https://raw.githubusercontent.com/kotyukov/NeuralStyleTransferDLS/master/data/loss_func.png)
 
-where $$\vec{a}$$ is style image, $$\vec{p}$$ is content image, $$\vec{x}$$ is generated (output) image and
-$$\alpha$$ and $$\beta$$ are the weighting factors for content and style.
+where ***a*** is style image, ***p*** is content image, ***x*** is generated (output) image and
+***α*** and ***β*** are the weighting factors for content and style.
 
 ![](https://raw.githubusercontent.com/kotyukov/NeuralStyleTransferDLS/master/data/losses.png)
 
